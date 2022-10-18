@@ -33,6 +33,7 @@ namespace Learning2022.Forms {
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "BubbleSortForm";
             this.Text = "BubbleSortForm";
+            this.Load += new System.EventHandler(this.BubbleSortForm_Load);
             this.ResumeLayout(false);
 
         }
